@@ -4,3 +4,15 @@ $ git checkout -b <new_branch>
 
 First, make sure that the target branch exists by running the “git branch” command.
 $ git branch
+
+Check if the file is present in the current branch or not in the local folder
+$ git status
+
+Next step is to add the file
+$ git add filename.ext
+
+Next step is to commit the file
+$ git commit -m "commit comment"
+
+Next step is to push the file to remote server, in that same branch whic you are currently in (e.g. master or develop or xyz)
+$ git push origin branch_name 
