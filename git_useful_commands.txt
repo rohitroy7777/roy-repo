@@ -1,0 +1,6 @@
+If the destination branch does not exist, you have to append the “-b” option, otherwise you won’t be able to switch to that branch.
+$ git checkout <existing_branch>
+$ git checkout -b <new_branch>
+
+First, make sure that the target branch exists by running the “git branch” command.
+$ git branch
